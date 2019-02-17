@@ -17,17 +17,25 @@
     <label>Base color</label><br><br>
 
 <!--Code for the selection-->
-    <label for="pet-select">Choose a color style:</label><br><br>
+    <label for="pet-select" id="colorSelector">Choose a color style:</label><br><br>
 
 <select id="pet-select">
     <option value="">--Please choose an option--</option>
-    <option value="analouge">Analoguous</option>
-    <option value="monochromatic">Monochromatic</option>
-    <option value="complementary">Complementary</option>
-    <option value="triad">Triad</option>
-    <option value="compound">Compound</option>
-    <option value="shades">Shades</option>
+    <option value="analouge" id="analouge">Analoguous</option>
+    <option value="monochromatic" id="monochromatic">Monochromatic</option>
+    <option value="complementary" id="complementary">Complementary</option>
+    <option value="triad" id="triad">Triad</option>
+    <option value="compound" id="compound">Compound</option>
+    <option value="shades" id="shades">Shades</option>
 </select>
+<div id="container">
+    <div id="baseColor"></div>
+    <div id="colorOne"></div>
+    <div id="colorTwo"></div>
+    <div id="colorThree"></div>
+    <div id="colorFour"></div>
+
+</div>
     <script src="script.js"></script>
 </body>
 </html>
